@@ -1,0 +1,15 @@
+{% extends "questionLayout.html" %}
+
+{% set active_page = "page3" %}
+
+{% block title %}Page 3{% endblock %}
+
+{% block content %}
+    <!--page content-->
+    <h1>Page 3</h1>
+
+    <ul>
+        <li><p>First Answer: {{ session['answer1'] }}</p></li>
+        <li><p>Second Answer: {{ session['answer2'] }} </p></li>
+    </ul>
+{% endblock %}

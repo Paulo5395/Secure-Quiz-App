@@ -1,1 +1,1 @@
-# Secure-Quiz-App
+# DSW-templates-example

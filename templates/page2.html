@@ -6,30 +6,30 @@
 
 {% block content %}
     <!--page content-->
-    <h1>Page 2</h1>
+    <h1>Question 2</h1>
 
-    <form action="/p3" class="mb-3" method="POST">
-        <p>What is 3-1</p>
+    <form action="/p3" class="mb-5" method="POST">
+        <p>Which of the following were reasons for U.S. involvement in WWII?</p>
 
         <div class="mb-3">
-            <div class="form-check">
-                <input type="radio" class="form-check-input" id="radio5" name="optradio" value="2">2
+            <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" id="radio5" name="optradio" value="1">Attack on Pearl Harbor
                 <label class="form-check-label" for="radio1"></label>
             </div>
-            <div class="form-check">
-                <input type="radio" class="form-check-input" id="radio6" name="optradio" value="4">4
+            <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" id="radio6" name="optradio" value="2">Invasion of Germany into Eastern European countries
                 <label class="form-check-label" for="radio2"></label>
             </div>
-            <div class="form-check">
-                <input type="radio" class="form-check-input" id="radio7" name="optradio" value="31">31
+            <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" id="radio7" name="optradio" value="3">Zimmerman Telegram
                 <label class="form-check-label"></label>
             </div>
-            <div class="form-check">
-                <input type="radio" class="form-check-input" id="radio8" name="optradio" value="5">5
+            <div class="form-check mb-2">
+                <input type="radio" class="form-check-input" id="radio8" name="optradio" value="4">Conflicts with Russia
                 <label class="form-check-label"></label>
             </div>
         </div>
 
-        <button type="submit" class="btn btn-primary">Next Question</button>
+        <button type="submit" class="btn btn-primary">Submit Quiz</button>
     </form>
 {% endblock %}
